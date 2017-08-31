@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="org.scala-sbt.temp"
+		module="temp-resolve-d749bb89df250bea418b9c04910afc6dcb620ea3"
+		revision="1.0"
+		conf="test-internal"
+		confs="universal, universal-docs, universal-src, compile, runtime, test, provided, optional, windows, docker, linux, rpm, debian, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20170831172028"/>
+	<dependencies>
+		<module organisation="org.webjars.npm" name="jasmine-core">
+			<revision name="2.6.4" status="release" pubdate="20170702120227" resolver="public" artresolver="public" homepage="http://webjars.org" downloaded="true" searched="true" default="false" conf="default, compile, runtime, default(compile), master" position="0">
+				<license name="MIT" url="https://spdx.org/licenses/MIT#licenseText"/>
+				<metadata-artifact status="successful" details="" size="1363" time="431" location="/home/hanguksaram/.ivy2/cache/org.webjars.npm/jasmine-core/ivy-2.6.4.xml" searched="true" original-local-location="/home/hanguksaram/.ivy2/cache/org.webjars.npm/jasmine-core/ivy-2.6.4.xml.original" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/webjars/npm/jasmine-core/2.6.4/jasmine-core-2.6.4.pom"/>
+				<caller organisation="org.scala-sbt.temp" name="temp-resolve-d749bb89df250bea418b9c04910afc6dcb620ea3" conf="test, compile, provided, test-internal, runtime, optional" rev="2.6.4" rev-constraint-default="2.6.4" rev-constraint-dynamic="2.6.4" callerrev="1.0"/>
+				<artifacts>
+					<artifact name="jasmine-core" type="jar" ext="jar" status="successful" details="" size="80567" time="430" location="/home/hanguksaram/.ivy2/cache/org.webjars.npm/jasmine-core/jars/jasmine-core-2.6.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/webjars/npm/jasmine-core/2.6.4/jasmine-core-2.6.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
